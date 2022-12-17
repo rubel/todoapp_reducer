@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App{
+  width: 90%;
+  margin: 20px auto;
+}
+
+.form-group{
+  width: 100%;
+  padding: 10px 0px;
+}
+.form{
+  width: 45%;
+  padding: 10px;
+  float: right;
+  border: 1px solid gray;
+}
+input, textarea{
+  width: 90%;
+  padding: 0px 5% 0px 5%;
+}
+.todos{
+  float: left;
+  width: 50%;
+  padding: 0px 10x;
+}
+.todo{
+  background-color: rgb(220, 174, 229);
+  margin-bottom: 10px;
+  padding: 10px
+}
+.todo-com{
+  background-color: rgb(122, 215, 157);
+  margin-bottom: 10px;
+  padding: 10px
+}
+.todo .desc{
+  padding-top: 5px;
+}
